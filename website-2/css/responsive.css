@@ -20,4 +20,14 @@
     {
         width: 90%;
     }
+    header ul li a
+    {
+        text-align: center;
+        padding: 0.5rem 0.85rem;
+        font-size: 0.55rem;
+    }
+    .cls
+    {
+        height: 2.5rem;
+    }
 }
