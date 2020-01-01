@@ -57,6 +57,15 @@ header ul li.active
     color: #e4e1bd;
     text-decoration: none;
 }
+header ul li.active a
+{
+    color: #e4e1bd;
+}
+header ul li:hover
+{
+    background-color: #6E6159;
+    background-image: linear-gradient(#6E6159, #9B8E85);
+}
 header ul li a:hover
 {
     background-color: #6E6159;
@@ -115,6 +124,10 @@ header ul li a:hover
 {
     color: #5a4535;
 }
+.txt-brown
+{
+    color: #594334;
+}
 .link-style
 {
     text-decoration: underline;
@@ -145,3 +158,43 @@ h3.txt-green1
     text-transform: uppercase;
 }
 /* body end */
+/* footer start */
+.bg-footer
+{
+    background-color: #AC9E94;
+    border-bottom: 1px solid #72675F
+}
+footer ul
+{
+    list-style-type: none;
+    margin-bottom: 0;
+    text-align: center;
+    float: left;
+}
+footer ul li
+{
+    display: inline-block;
+    padding: 0 0.5rem;
+}
+footer ul li a
+{
+    color: #594334;
+    font-size: 0.875rem;
+}
+footer ul li.active a
+{
+    color: #ffffff !important;
+    text-decoration: none;
+}
+footer ul li a:hover
+{
+    color: #ffffff !important;
+    text-decoration: none;
+}
+footer i
+{
+    color: #D6CFCA;
+    padding: 0.5rem 0.40rem;
+    font-size: 1.25rem;
+}
+/* footer end */
