@@ -83,7 +83,7 @@ header ul li a:hover
 }
 /* Header end */
 
-/* body start */
+/* Home start */
 .font22
 {
     font-size: 1.375rem;
@@ -133,6 +133,10 @@ header ul li a:hover
     text-decoration: underline;
     color: #5a4535;
 }
+a.link-style:hover
+{
+    color: #917157;;
+}
 .pall-1
 {
     padding: 1rem 0.25rem 0;
@@ -157,7 +161,39 @@ h3.txt-green1
     margin: 0;
     text-transform: uppercase;
 }
-/* body end */
+/* Home end */
+/* About start */
+.font30
+{
+    font-size: 1.875rem;
+}
+.aboutsection hr
+{
+    border: 0;
+    border-top: 1px solid #bbbbbb;
+}
+.aboutsection .bdr-rit1
+{
+    border-right: 1px solid #bbbbbb;
+}
+/* About end */
+/* Rooms start */
+.roomssection .img-brdr
+{
+    border: 1px solid #329688;
+}
+/* Rooms end */
+
+
+
+
+
+
+
+
+
+
+
 /* footer start */
 .bg-footer
 {
