@@ -182,6 +182,10 @@ h3.txt-green1
 {
     border: 1px solid #329688;
 }
+.roomssection .img-ht100
+{
+    height: 100%;
+}
 .roomssection .pricebtn
 {
     width: 9rem;
