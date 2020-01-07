@@ -172,13 +172,13 @@ h3.txt-green1
     border: 0;
     border-top: 1px solid #bbbbbb;
 }
-.aboutsection .bdr-rit1
+.bdr-rit1
 {
     border-right: 1px solid #bbbbbb;
 }
 /* About end */
 /* Rooms start */
-.roomssection .img-brdr
+.img-brdr
 {
     border: 1px solid #329688;
 }
@@ -198,9 +198,23 @@ h3.txt-green1
 }
 /* Rooms end */
 /* Food start */
-
+.foodsection h2
+{
+    font-size: 1.375rem;
+    padding: 1rem 0rem;
+}
+.foodsection hr
+{
+    border: 0;
+    border-top: 1px solid #b7b7b7;
+}
 /* Food end */
 /* News start */
+.newssection hr
+{
+    border: 0;
+    border-bottom: 1px solid #b7b7b7;
+}
 
 /* News end */
 /* Contact start */
