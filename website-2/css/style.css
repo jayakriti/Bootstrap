@@ -81,9 +81,9 @@ header ul li a:hover
 {
     border: 4px solid #ffffff;
 }
-/* Header end */
+/* *****Header end***** */
 
-/* Home start */
+/* *****Home start***** */
 .font22
 {
     font-size: 1.375rem;
@@ -161,8 +161,21 @@ h3.txt-green1
     margin: 0;
     text-transform: uppercase;
 }
-/* Home end */
-/* About start */
+#room:hover
+{
+    opacity: 0.7;
+}
+#dive:hover
+{
+    opacity: 0.7;
+}
+#food:hover
+{
+    opacity: 0.7;
+}
+/* *****Home end***** */
+
+/* *****About start***** */
 .font30
 {
     font-size: 1.875rem;
@@ -176,8 +189,9 @@ h3.txt-green1
 {
     border-right: 1px solid #bbbbbb;
 }
-/* About end */
-/* Rooms start */
+/* *****About end***** */
+
+/* *****Rooms start***** */
 .img-brdr
 {
     border: 1px solid #329688;
@@ -196,8 +210,9 @@ h3.txt-green1
     border: 0;
     border-top: 1px solid #b7b7b7;
 }
-/* Rooms end */
-/* Food start */
+/* *****Rooms end***** */
+
+/* *****Food start***** */
 .foodsection h2
 {
     font-size: 1.375rem;
@@ -208,16 +223,35 @@ h3.txt-green1
     border: 0;
     border-top: 1px solid #b7b7b7;
 }
-/* Food end */
-/* News start */
+.text
+{
+    opacity:0;
+}
+#seafood:hover
+{
+    opacity: 0.5;
+}
+
+#dessert:hover
+{
+    opacity: 0.5;
+}
+#buffet:hover
+{
+    opacity: 0.5;
+}
+/* *****Food end***** */
+
+/* *****News start***** */
 .newssection hr
 {
     border: 0;
     border-bottom: 1px solid #b7b7b7;
 }
 
-/* News end */
-/* Contact start */
+/* *****News end***** */
+
+/* *****Contact start***** */
 .contactsection form
 {
     color: #5a4535;
@@ -268,19 +302,9 @@ h3.txt-green1
     padding: 0.15rem 0.65rem 0.10rem;
     outline: none;
 }
-/* Contact end */
+/* *****Contact end***** */
 
-
-
-
-
-
-
-
-
-
-
-/* footer start */
+/* *****footer start***** */
 .bg-footer
 {
     background-color: #AC9E94;
@@ -319,4 +343,4 @@ footer i
     padding: 0.5rem 0.40rem;
     font-size: 1.25rem;
 }
-/* footer end */
+/* *****footer end***** */
