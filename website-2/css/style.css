@@ -15,6 +15,30 @@ body
 {
     background-color: #EAE7E8;
 }
+.bg-grey2
+{
+    background-color: #EBEBED;
+}
+.bg-green
+{
+    background-color: #C8C10D;
+}
+.bg-pink
+{
+    background-color: #CB3362;
+}
+.link-style
+{
+    color: #7a6666;
+    text-decoration: underline;
+}
+.link-style:hover
+{
+    color: #C8C10D;
+    text-decoration: underline;
+}
+
+/* **********NAVBAR start********** */
 .navclr
 {
     background-color: #EEEBEC;
@@ -39,6 +63,11 @@ body
 {
     color: #c8c10d;
 }
+/* **********NAVBAR end********** */
+
+/* ******************************HOME start****************************** */
+
+/* **********section2 start********** */
 .sec2 h3
 {
     color: #7A6666;
@@ -49,3 +78,60 @@ body
     text-transform: uppercase;
     font-weight: bold;
 }
+.sec2 h2
+{
+    color: #E32A62;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.688rem;
+    line-height: 1.688rem;
+    font-weight: bold;
+}
+.sec2 p
+{
+    color: #7a6666;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+}
+/* **********section2 end********** */
+
+/* **********section3 start********** */
+.sec3 p
+{
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 1rem;
+}
+/* **********section3 end********** */
+
+/* **********footer start********** */
+footer
+{
+    color: #ffffff;
+}
+footer p
+{
+    font-size: 0.75rem;
+}
+footer i
+{
+    padding: 0 0.75rem;
+}
+/* **********footer end********** */
+
+/* ******************************HOME end****************************** */
+
+/* ******************************ABOUT start****************************** */
+h1.heading
+{
+    color: #ffffff;
+    font-size: 1.875rem;
+    line-height: 1.875rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+/* ******************************ABOUT end****************************** */
