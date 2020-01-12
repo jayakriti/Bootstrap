@@ -163,4 +163,20 @@ h1.heading
     line-height: 3rem;
     text-transform: uppercase;
 }
+.prodbody .fstcol h2
+{
+    color: #E32A62;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.625rem;
+    font-weight: bold;
+    line-height: 1.75rem;
+    padding-top: 4.375rem;
+}
+.prodbody .fstcol p
+{
+    color: #7A6666;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+}
 /* ******************************PRODUCT end****************************** */
