@@ -42,6 +42,14 @@ body
 {
     padding: 2.25rem 0rem;
 }
+.ptb1
+{
+    padding: 3rem 0rem;
+}
+.ln-ht3
+{
+    line-height: 3rem;
+}
 
 /* **********NAVBAR start********** */
 .navclr
@@ -145,6 +153,12 @@ h1.heading
     font-size: 1.5rem;
     line-height: 3rem;
     text-transform: uppercase;
+}
+.allcontent1
+{
+    color: #7A6666;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.875rem;
 }
 .allcontent
 {
