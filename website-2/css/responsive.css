@@ -1,4 +1,19 @@
-@media only screen and (min-width:768px) and (max-width:1024px)
+@media only screen and (min-width:1024px) and (max-width:1440px)
+{
+    .ln-ht3
+    {
+        line-height: 2.25rem;
+    }
+    .prodbody .fstcol h2
+    {
+        padding-top: 3rem;
+    }
+    .customcontainer1
+    {
+        width: 90%;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:1023px)
 {
     html
     {
@@ -7,6 +22,14 @@
     .customcontainer
     {
         width: 90%;
+    }
+    .ln-ht3
+    {
+        line-height: 2rem;
+    }
+    .prodbody .fstcol h2
+    {
+        padding-top: 3.375rem;
     }
 }
 @media only screen and (min-width:320px) and (max-width:767px) and (orientation: landscape)
