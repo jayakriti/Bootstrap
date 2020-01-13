@@ -19,4 +19,12 @@
     {
         width: 90%;
     }
+    .sec2 h2 {
+        font-size: 1.25rem;
+        line-height: 1.25rem;
+    }
+    .allheading {
+        font-size: 1.35rem;
+        line-height: 1.5rem;
+    }
 }
