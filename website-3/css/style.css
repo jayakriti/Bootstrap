@@ -1,0 +1,58 @@
+body
+{
+    margin: 0 auto;
+    font-family: "Times New Roman", serif;
+}
+.customcontainer
+{
+    margin: 0 auto;
+    width: 72%;
+}
+
+
+
+.txt-green1
+{
+    color: #4e5944;
+}
+.txt-green2
+{
+    color: #57614e;
+}
+.txt-grey1
+{
+    color: #626262;
+}
+.bg-green
+{
+    background-color: #4F5843;
+}
+
+/* **********NAVBAR start********** */
+.navclr
+{
+    background-color: #58614E;
+    padding: 1rem 0rem;
+}
+.nav-item
+{
+    padding: 0 0.5rem;
+}
+.navbar-light .navbar-nav .nav-link
+{
+    color: #b8c6ac;
+    font-family: "Times New Roman", serif;
+    font-size: 0.8125rem;
+    text-decoration: underline;
+    font-weight: bold;
+    text-shadow: 1px 1px #000;
+}
+.navbar-light .navbar-nav .nav-link.active
+{
+    color: #ffffff;
+}
+.navbar-light .navbar-nav .nav-link:hover
+{
+    color: #ffffff;
+}
+/* **********NAVBAR end********** */
