@@ -23,9 +23,17 @@ body
 {
     color: #626262;
 }
+.bg-grey
+{
+    background-color: #E2E2E2;
+}
 .bg-green
 {
     background-color: #4F5843;
+}
+.bdr-nav
+{
+    border-bottom: 2px solid #ffffff;
 }
 
 /* **********NAVBAR start********** */
@@ -38,7 +46,7 @@ body
 {
     padding: 0 0.5rem;
 }
-.navbar-light .navbar-nav .nav-link
+.navbar-dark .navbar-nav .nav-link
 {
     color: #b8c6ac;
     font-family: "Times New Roman", serif;
@@ -47,11 +55,11 @@ body
     font-weight: bold;
     text-shadow: 1px 1px #000;
 }
-.navbar-light .navbar-nav .nav-link.active
+.navbar-dark .navbar-nav .nav-link.active
 {
     color: #ffffff;
 }
-.navbar-light .navbar-nav .nav-link:hover
+.navbar-dark .navbar-nav .nav-link:hover
 {
     color: #ffffff;
 }
