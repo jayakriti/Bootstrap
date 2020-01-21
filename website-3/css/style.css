@@ -6,7 +6,7 @@ body
 .customcontainer
 {
     margin: 0 auto;
-    width: 72%;
+    width: 70%;
 }
 
 
@@ -83,9 +83,21 @@ body
 .home1 .top-box
 {
     border: 1px solid #ffffff;
-    padding: 0.5rem;
     box-shadow: -6px 0 5px -5px rgba(0, 0, 0, 0.6);
     background-color: #E9E9E9;
+}
+.wid-42
+{
+    width: 42%;
+}
+.wid-58
+{
+    width: 58%;
+}
+.home1 h1
+{
+    font-size: 1.875rem;
+    line-height: 3rem;
 }
 /* **********SECTION1 end********** */
 /* ****************************************HOME PAGE end**************************************** */
