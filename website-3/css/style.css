@@ -38,6 +38,8 @@ body
 .bdrbtm1 {border-bottom: 1px solid #ffffff;}
 .bdrbtm2 {border-bottom: 2px solid #ffffff;}
 .bdrrt1 {border-right: 1px dotted #626262;}
+.bdrrt2 {border-right: 1px solid #626262;}
+.brdrgrey {border: 4px solid #E2E2E2;}
 /* Border end */
 
 /* **********NAVBAR start********** */
@@ -96,4 +98,14 @@ body
     line-height: 3rem;
 }
 /* **********SECTION1 end********** */
+/* **********SECTION3 start********** */
+.frame 
+{
+    background-image: url('../images/frames.png');
+    width: 213px;
+    height: 156px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+/* **********SECTION3 end********** */
 /* ****************************************HOME PAGE end**************************************** */
