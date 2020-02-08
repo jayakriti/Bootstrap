@@ -9,9 +9,7 @@ body
     width: 70%;
 }
 
-
-
-
+/* Text color start */
 .txt-green1
 {
     color: #4e5944;
@@ -24,6 +22,9 @@ body
 {
     color: #626262;
 }
+/* Text color end */
+
+/* Background color start */
 .bg-grey
 {
     background-color: #E2E2E2;
@@ -40,6 +41,9 @@ body
 {
     background-color: #4F5843;
 }
+/* Background color end */
+
+/* Border start */
 .bdrbtm1
 {
     border-bottom: 1px solid #ffffff;
@@ -48,6 +52,11 @@ body
 {
     border-bottom: 2px solid #ffffff;
 }
+.bdrrt1
+{
+    border-right: 1px dotted #626262;
+}
+/* Border end */
 
 /* **********NAVBAR start********** */
 .navclr
