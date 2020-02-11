@@ -107,7 +107,7 @@ body
 /* **********SECTION3 start********** */
 .frame1 
 {
-    background-image: url('../images/frames.png');
+    background-image: url('../images/frame1.png');
     width: 13.31rem;
     height: 9.75rem;
     background-position: bottom;
@@ -131,3 +131,14 @@ body
 }
 /* **********SECTION3 end********** */
 /* ****************************************HOME PAGE end**************************************** */
+
+/* ****************************************ABOUT PAGE start**************************************** */
+.frame2 
+{
+    background-image: url('../images/frame2.png');
+    width: 58.63rem;
+    height: 20.23rem;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+/* ****************************************ABOUT PAGE end**************************************** */
