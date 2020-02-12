@@ -48,6 +48,10 @@ body
 .brdrgrey {border: 4px solid #E2E2E2;}
 /* Border end */
 
+/* Padding start */
+.plft1 {padding-left: 1rem;}
+/* Padding end */
+
 /* **********NAVBAR start********** */
 .navclr
 {

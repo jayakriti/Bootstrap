@@ -15,6 +15,7 @@
     {
         width: 90%;
     }
+    .plft1 {padding-left: 0rem;}
     .htimg {height: 80%;}
     .pos-rel {position: relative;}
     .pos-abs {position: absolute; bottom: 0; right: 0;}
