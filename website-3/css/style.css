@@ -17,6 +17,7 @@ body
 /* Font size start */
 .font11 {font-size: 0.6875rem; line-height: 2rem; text-align: right;}
 .font12 {font-size: 0.75rem; line-height: 1.35rem;}
+.font13 {font-size:0.8125rem; line-height: 1.35rem;}
 .font14 {font-size: 0.875rem; line-height: 1.5rem;}
 .font19 {font-size: 1.188rem; line-height: 1.5rem;}
 /* Font size end */
@@ -31,6 +32,7 @@ body
 .txt-green3 {color: #728063;}
 .txt-green4 {color: #b5c1aa;}
 .txt-grey1 {color: #626262;}
+.txt-brown {color: #755c02;}
 /* Text color end */
 
 /* Background color start */
@@ -43,6 +45,7 @@ body
 /* Border start */
 .bdrbtm1 {border-bottom: 1px solid #ffffff;}
 .bdrbtm2 {border-bottom: 2px solid #ffffff;}
+.bdrbtm3 {border-bottom: 1px dotted #626262; padding-bottom: 1rem;}
 .bdrrt1 {border-right: 1px dotted #626262;}
 .bdrrt2 {border-right: 1px solid #C2C2C2;}
 .brdrgrey {border: 4px solid #E2E2E2;}
@@ -50,6 +53,7 @@ body
 
 /* Padding start */
 .plft1 {padding-left: 1rem;}
+.prt1 {padding-right: 2rem;}
 /* Padding end */
 
 /* **********NAVBAR start********** */
@@ -146,3 +150,25 @@ body
     background-repeat: no-repeat;
 }
 /* ****************************************ABOUT PAGE end**************************************** */
+
+/* ****************************************PRACTICE PAGE start**************************************** */
+.frame3
+{
+    background-image: url('../images/frame3.png');
+    width: 17.5rem;
+    height: 13.88rem;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+/* ****************************************PRACTICE PAGE end**************************************** */
+
+/* ****************************************OURLAWER PAGE start**************************************** */
+.frame4
+{
+    background-image: url('../images/frame4.png');
+    width: 6.563rem;
+    height: 7.063rem;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+/* ****************************************OURLAWER PAGE end**************************************** */
