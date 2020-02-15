@@ -15,6 +15,7 @@ body
 
 
 /* Font size start */
+.font11lh {font-size: 0.6875rem; line-height: 1.5rem;}
 .font11 {font-size: 0.6875rem; line-height: 2rem; text-align: right;}
 .font12 {font-size: 0.75rem; line-height: 1.35rem;}
 .font13 {font-size:0.8125rem; line-height: 1.35rem;}
@@ -52,6 +53,7 @@ body
 /* Border end */
 
 /* Padding start */
+.plft0 {padding-left: 0rem;}
 .plft1 {padding-left: 1rem;}
 .prt1 {padding-right: 2rem;}
 /* Padding end */
@@ -172,3 +174,14 @@ body
     background-repeat: no-repeat;
 }
 /* ****************************************OURLAWER PAGE end**************************************** */
+
+/* ****************************************NEWS PAGE start**************************************** */
+.frame5
+{
+    background-image: url('../images/frame5.png');
+    width: 37.44rem;
+    height: 16.63rem;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+/* ****************************************NEWS PAGE end**************************************** */
