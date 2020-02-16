@@ -16,6 +16,7 @@
         width: 90%;
     }
     .plft1 {padding-left: 0rem;}
+    .plftmob {padding-left: 1rem;}
     .htimg {height: 80%;}
     .pos-rel {position: relative;}
     .pos-abs {position: absolute; bottom: 0; right: 0;}
@@ -28,6 +29,11 @@
         width: auto;
         height: auto;
         padding-bottom: 11px;
+    }
+    .frame5
+    {
+        width: 37.44rem;
+        height: 18.45rem;;
     }
     
 }
@@ -56,6 +62,8 @@
     }
     .plft0 {padding-left: 23px;}
     .bdrrt1 {border: none}
+    .plftmob {padding-left: 0.5rem;}
+    .ptopmob {padding-top: 11px !important;}
     .bdrrt2 {border-right: none; border-bottom: 1px solid #C2C2C2;}
     .frame {
         height: 10.1rem;
@@ -69,6 +77,12 @@
         padding-bottom: 11px;
     }
     .frame3
+    {
+        width: auto;
+        height: auto;
+        padding-bottom: 11px;
+    }
+    .frame5
     {
         width: auto;
         height: auto;
