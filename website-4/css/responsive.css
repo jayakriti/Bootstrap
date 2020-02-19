@@ -1,30 +1,92 @@
-@media only screen and (min-width: 1601px) and (max-width: 1920px) {
-    html {
+@media only screen and (min-width:1025px) and (max-width:1440px)
+{
+    html
+    {
         font-size: 16px;
     }
 }
-@media only screen and (min-width: 1401px) and (max-width: 1700px) {}
-
-@media only screen and (min-width: 1210px) and (max-width: 1500px) {}
-@media only screen and (min-width: 1200px) and (max-width: 1600px) {
- 
-}
-@media only screen and (min-width: 1200px) and (max-width: 1354px) {
-
-}
-@media only screen and (max-width: 1199px) {}
-@media only screen and (min-width: 768px) and (max-width: 1199px) {
-
-}
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-
-}
-@media only screen and (min-width: 320px) and (max-width: 767px) {
-	html {
-        font-size: 15px;
+@media only screen and (min-width:768px) and (max-width:1024px)
+{
+    html
+    {
+        font-size: 14px;
     }
-.pl_5 {padding-left: 1rem;}
+    .customcontainer
+    {
+        width: 90%;
+    }
+    .plft1 {padding-left: 0rem;}
+    .plftmob {padding-left: 1rem;}
+    .htimg {height: 80%;}
+    .pos-rel {position: relative;}
+    .pos-abs {position: absolute; bottom: 0; right: 0;}
+    .bdrrt1 {border: none}
+    .frame {
+        width: 10.31rem;
+        height: 8rem;
+    }
+    .frame2 {
+        width: auto;
+        height: auto;
+        padding-bottom: 11px;
+    }
+    .frame5
+    {
+        width: 37.44rem;
+        height: 18.45rem;;
+    }
+    
 }
-@media only screen and (max-width:767px) and (orientation:landscape) {
 
+@media only screen and (min-width:320px) and (max-width:767px)
+{
+    html
+    {
+        font-size: 12px;
+    }
+    .customcontainer
+    {
+        width: 90%;
+    }
+    .navbar-brand.w70
+    {
+        width: 70%;
+    }
+    .wid-42
+    {
+        width: 100%;
+    }
+    .wid-58
+    {
+        width: 100%;
+    }
+    .plft0 {padding-left: 23px;}
+    .bdrrt1 {border: none}
+    .plftmob {padding-left: 0.5rem;}
+    .ptopmob {padding-top: 11px !important;}
+    .bdrrt2 {border-right: none; border-bottom: 1px solid #C2C2C2;}
+    .frame {
+        height: 10.1rem;
+    }
+    .font11 {text-align: center;}
+    .txt-cntr {text-align: center;}
+
+    .frame2 {
+        width: auto;
+        height: auto;
+        padding-bottom: 11px;
+    }
+    .frame3
+    {
+        width: auto;
+        height: auto;
+        padding-bottom: 11px;
+    }
+    .frame5
+    {
+        width: auto;
+        height: auto;
+        padding-bottom: 11px;
+    }
+    
 }
