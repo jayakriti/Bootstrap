@@ -9,179 +9,39 @@ body
     width: 71%;
 }
 
-.lspac1 {letter-spacing: 1px;}
-.linkstyle {color: #626262; text-decoration: none;}
-.linkstyle:hover {color: #626262; text-decoration: underline;}
+.navbar-toggler{
+    width: 3.25rem;
+    height: 2.75rem;
+    border: 0px;
+    background-color: #f7bb61;
+    }
+    .navbar-toggler .icon-bar{
+    width: 100%;
+    float: left;
+    height: 3px;
+    background-color: #ffffff;
+    margin-bottom: 0.5rem;
+    }
+    .navbar-custom {background: #f7bb61;}
+.nav-custom-burger i {color: black;	font-size: 1.75rem;}
+.navbar-toggler:hover {border: 0px;	outline: 0px auto -webkit-focus-ring-color;}
+/* *****Burger menu styling start***** */
+.navbar-toggler .icon-bar {
+    position: relative;
+    transition: all 300ms ease-in-out;
+}
 
+.navbar-toggler.active .icon-bar:nth-of-type(1) {
+    top: 10px;
+    transform: rotate(45deg);
+}
 
-/* Font size start */
-.font11lh {font-size: 0.6875rem; line-height: 1.5rem;}
-.font11 {font-size: 0.6875rem; line-height: 2rem; text-align: right;}
-.font12 {font-size: 0.75rem; line-height: 1.35rem;}
-.font13 {font-size:0.8125rem; line-height: 1.35rem;}
-.font14 {font-size: 0.875rem; line-height: 1.5rem;}
-.font19 {font-size: 1.188rem; line-height: 1.5rem;}
-/* Font size end */
+.navbar-toggler.active .icon-bar:nth-of-type(2) {
+    background: transparent !important;
+}
 
-/* Font family start */
-.font-arial {font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;}
-/* Font family end */
-
-/* Text color start */
-.txt-green1 {color: #4e5944;}
-.txt-green2 {color: #57614e;}
-.txt-green3 {color: #728063;}
-.txt-green4 {color: #b5c1aa;}
-.txt-grey1 {color: #626262;}
-.txt-brown {color: #755c02;}
-/* Text color end */
-
-/* Background color start */
-.bg-grey {background-color: #E2E2E2;}
-.bg-grey1 {background-color: #EEEEEE;}
-.bg-grey2 {background-color: #D9D9D9;}
-.bg-green {background-color: #4F5843;}
-/* Background color end */
-
-/* Border start */
-.bdrbtm1 {border-bottom: 1px solid #ffffff;}
-.bdrbtm2 {border-bottom: 2px solid #ffffff;}
-.bdrbtm3 {border-bottom: 1px dotted #626262; padding-bottom: 1rem;}
-.bdrrt1 {border-right: 1px dotted #626262;}
-.bdrrt2 {border-right: 1px solid #C2C2C2;}
-.brdrgrey {border: 4px solid #E2E2E2;}
-/* Border end */
-
-/* Padding start */
-.plft0 {padding-left: 0rem;}
-.plft1 {padding-left: 1rem;}
-.prt1 {padding-right: 2rem;}
-/* Padding end */
-
-/* **********NAVBAR start********** */
-.navclr
-{
-    background-color: #58614E;
-    padding: 1rem 0rem;
+.navbar-toggler.active .icon-bar:nth-of-type(3) {
+    top: -11px;
+    transform: rotate(-45deg);
 }
-.nav-item
-{
-    padding: 0 0.5rem;
-}
-.navbar-dark .navbar-nav .nav-link
-{
-    color: #b8c6ac;
-    font-family: "Times New Roman", serif;
-    font-size: 0.8125rem;
-    text-decoration: underline;
-    font-weight: bold;
-    text-shadow: 1px 1px #000;
-}
-.navbar-dark .navbar-nav .nav-link.active
-{
-    color: #ffffff;
-}
-.navbar-dark .navbar-nav .nav-link:hover
-{
-    color: #ffffff;
-}
-/* **********NAVBAR end********** */
-
-/* ****************************************HOME PAGE start**************************************** */
-/* **********SECTION1 start********** */
-.home1 .top-box
-{
-    border: 1px solid #ffffff;
-    box-shadow: -6px 0 5px -5px rgba(0, 0, 0, 0.6);
-    background-color: #E9E9E9;
-}
-.wid-42
-{
-    width: 42%;
-}
-.wid-58
-{
-    width: 58%;
-}
-.home1 h1
-{
-    font-size: 1.875rem;
-    line-height: 3rem;
-}
-.home1 p
-{
-    font-size: 1.563rem;
-    line-height: 3rem;
-}
-/* **********SECTION1 end********** */
-/* **********SECTION3 start********** */
-.frame1 
-{
-    background-image: url('../images/frame1.png');
-    width: 13.31rem;
-    height: 9.75rem;
-    background-position: bottom;
-    background-repeat: no-repeat;
-}
-.btn-custom
-{
-    background-color: #323232;
-    font-size: 0.75rem;
-    color: #ffffff;
-    padding: 7px 12px;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    border-radius: 0px 5px;
-    text-decoration: none;
-}
-.btn-custom:hover
-{
-    background-color: #728063;
-    color: #ffffff;
-    text-decoration: none;
-}
-/* **********SECTION3 end********** */
-/* ****************************************HOME PAGE end**************************************** */
-
-/* ****************************************ABOUT PAGE start**************************************** */
-.frame2 
-{
-    background-image: url('../images/frame2.png');
-    width: 58.63rem;
-    height: 20.23rem;
-    background-position: bottom;
-    background-repeat: no-repeat;
-}
-/* ****************************************ABOUT PAGE end**************************************** */
-
-/* ****************************************PRACTICE PAGE start**************************************** */
-.frame3
-{
-    background-image: url('../images/frame3.png');
-    width: 17.5rem;
-    height: 13.88rem;
-    background-position: bottom;
-    background-repeat: no-repeat;
-}
-/* ****************************************PRACTICE PAGE end**************************************** */
-
-/* ****************************************OURLAWER PAGE start**************************************** */
-.frame4
-{
-    background-image: url('../images/frame4.png');
-    width: 6.563rem;
-    height: 7.063rem;
-    background-position: bottom;
-    background-repeat: no-repeat;
-}
-/* ****************************************OURLAWER PAGE end**************************************** */
-
-/* ****************************************NEWS PAGE start**************************************** */
-.frame5
-{
-    background-image: url('../images/frame5.png');
-    width: 37.44rem;
-    height: 16.63rem;
-    background-position: bottom;
-    background-repeat: no-repeat;
-}
-/* ****************************************NEWS PAGE end**************************************** */
+/* *****Burger menu styling end***** */
