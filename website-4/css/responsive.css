@@ -28,4 +28,8 @@
     {
         width: 90%;
     }
+    .navbar-expand-lg .navbar-nav .nav-link
+    {
+        padding: 0.5rem 0rem;
+    }
 }
