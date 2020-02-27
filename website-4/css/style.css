@@ -88,3 +88,28 @@ body
     width: 100%;
     height: 47rem;
 }
+.pos-style-abs
+{
+    top: 0;
+    right: 12rem;
+}
+.pos-style
+{
+    background-color: #283B62;
+    color: #ffffff;
+    padding: 1rem;
+    font-size: 0.875rem;
+}
+
+.pos-style-abs1
+{
+    top: 15rem;
+    left: 12rem;
+}
+.pos-style1
+{
+    background-color: #283B62;
+    color: #ffffff;
+    padding: 1rem;
+    font-size: 0.875rem;
+}
